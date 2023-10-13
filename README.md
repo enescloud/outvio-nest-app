@@ -1,6 +1,6 @@
 <h1 align="center" id="title">Outvio Nest App</h1>
 
-<p align="center">![Outvioe Nest App Preview](images/app-preview.png)</p>
+<p align="center">![app-preview](https://i.imgur.com/KqBPJWc.png)</p>
 
 <p id="description">You can access the Swagger documentation at <a href="http://localhost:3003/api" target="_blank"> http://localhost:3003/api</a> after installing and starting project. </p>
 
