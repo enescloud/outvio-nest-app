@@ -1,0 +1,9 @@
+DATABASE_URL="mongodb://localhost:27017/outvio_db?replicaSet=test"
+STAGE="dev"
+PORT=3003
+
+# Authentication
+ACCESS_TOKEN_SECRET="access_token_secret"
+TOKEN_REQUEST_LIMIT=200
+IP_REQUEST_LIMIT=100
+REQUEST_TTL=120 # 1 HOUR IN IN SECONDS
