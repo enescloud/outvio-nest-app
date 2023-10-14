@@ -2,7 +2,21 @@
 
 ![app-preview](https://i.imgur.com/KqBPJWc.png)
 
-<p id="description">You can access the Swagger documentation at <a href="http://localhost:3003/api" target="_blank"> http://localhost:3003/api</a> after installing and starting project. </p>
+<p id="description">You can access the Swagger documentation at <a href="http://localhost:3003/api" target="_blank"> http://localhost:3003/api</a> after installing and starting the project. </p>
+
+<h2>🚀 Technologies</h2>
+
+Here're some of the used tecnologies:
+
+- Typescript
+- NestJS
+- PrismaORM
+- Mongo
+- Redis
+- Docker
+- Jest
+- Swagger
+- ESLint
 
 <h2>🧐 Features</h2>
 
@@ -18,20 +32,6 @@ Here're some of the features:
 - All services covered by unit test by using Jest.
 - API documentation using Swagger.
 - ESLint and Prettier configurations for code formatting.
-
-<h2>🚀 Technologies</h2>
-
-Here're some of the used tecnologies:
-
-- Typescript
-- NestJS
-- PrismaORM
-- Mongo
-- Redis
-- Docker
-- Jest
-- Swagger
-- ESLint
 
 <h2>🧾 Prerequisites</h2>
 
@@ -104,5 +104,13 @@ npx prisma studio
 <p>You can use <b>Redis CLI</b> for checking data on cli</p>
 
 ```
-redis-cli THEN KEYS *
+docker exec -it redis redis-cli
 ```
+
+```
+KEYS *
+```
+
+<p>You can use <b>Redis CLI</b> for checking data on cli</p>
+
+<p<b>Concurrency Note:</b> In the project, Node.js's robust event loop and Redis's Token Bucket algorithm have been harnessed to ensure the safe and efficient handling of concurrent operations. Node.js's event-driven architecture facilitates the management of multiple operations happening simultaneously, while Redis's Token Bucket mechanism controls the rate at which requests are permitted, preventing overloading of shared resources. This combination effectively safeguards against concurrency issues, ensuring data integrity and resource protection.</p>
